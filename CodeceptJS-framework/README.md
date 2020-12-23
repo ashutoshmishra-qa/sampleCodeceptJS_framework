@@ -3,7 +3,7 @@
 
 Pros of using CodeceptJS for automating your WebApp
 - Easy to understand & debug issues.
-- It can use any of the popular wrappers - Pup & Webdriver
+- It can use any of the popular wrappers - Playwrite & Webdriver
 
 This framework is being built with Webdriver Helper
 Setup - 
