@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1573028764129' stop='1573028768946'>
+    <name>Create Composition Profile:</name>
+    <title>Create Composition Profile:</title>
+    <test-cases>
+        <test-case start='1573028766534' status='failed' stop='1573028768553'>
+            <name>Verify creating composition profile</name>
+            <title>Verify creating composition profile</title>
+            <labels>
+                <label name='tag' value='null'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='2dbb0969-142c-44e7-90f7-3ab96e8f328c-attachment.png' type='image/png' size='593431'/>
+            </attachments>
+            <failure>
+                <message>Could not include object loginPage from module 'tests/pages/login.js'
+                Cannot find module 'tests/pages/login.js'
+                Require stack:
+                - /home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/lib/container.js
+                - /home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/lib/codecept.js
+                - /home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/bin/codecept.js</message>
+                <stack-trace>Error: Could not include object loginPage from module 'tests/pages/login.js'
+                Cannot find module 'tests/pages/login.js'
+                Require stack:
+                - /home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/lib/container.js
+                - /home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/lib/codecept.js
+                - /home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/bin/codecept.js
+                    at loadSupportObject (/home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/lib/container.js:305:11)
+                    at getSupportObject (/home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/lib/container.js:271:12)
+                    at lazyLoad (/home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/lib/container.js:181:18)
+                    at Object.get (/home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/lib/container.js:229:24)
+                    at getInjectedArguments (/home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/lib/scenario.js:197:17)
+                    at Context.test.fn (/home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/codeceptjs/lib/scenario.js:78:26)
+                    at callFnAsync (/home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/mocha/lib/runnable.js:415:21)
+                    at Test.Runnable.run (/home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/mocha/lib/runnable.js:357:7)
+                    at Runner.runTest (/home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/mocha/lib/runner.js:535:10)
+                    at /home/ashutosh-sfin535/Ashutosh/Codecept-Framework/node_modules/mocha/lib/runner.js:653:12</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
